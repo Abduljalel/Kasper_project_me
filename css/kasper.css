@@ -771,9 +771,10 @@ align-items: center;
   text-transform: uppercase;
 }
 .plans .plan .head span {
- font-size: 60px;
- font-weight: bold;
- position: relative;
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  margin-right: 40px;
 }
 .plans .plan .head span::after {
   content: '$';
@@ -850,8 +851,8 @@ align-items: center;
   background-color: rgb(0 0 0 / 50%);
 }
 .subscribe .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
+  display: flex;
+  align-items: center;
   position: relative;
 }
 .subscribe .container form {
